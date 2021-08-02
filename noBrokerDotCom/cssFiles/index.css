@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin : 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+
+
+.navBar{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom:  1px solid #FFB6C1  ;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+#logoStart{
+    /*padding: 20px;*/
+}
+
+.navBar > a{
+    padding: 5px;
+    text-decoration: none;
+    /*color : #555;*/
+}
+
+.payrent{
+    border : 1px solid #E6E6E6;
+    color : #555;
+    border-radius : 3px;
+    margin-left: 12px;
+    padding : 6px;
+     text-decoration: none;
+}
+
+.payRentText{
+    border-left : 1px solid #E6E6E6 ;
+    padding-left: 5px;
+}
+
+
+.forPropertyOwners{
+    border : 1px solid #009587;
+    background-color: #009587;
+    color : white;
+    border-radius : 3px;
+    margin-left: 12px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.loginSignUp{
+    border-right:  1px solid #009587;
+    border-left:  1px solid #009587;
+     text-decoration: none;
+      color : #707070;
+      margin-left : 15px;
+          cursor: pointer;
+          padding: 6px;
+     
+}
+
+.menuRightSide{
+    margin-left: 15px;
+     color : #707070;
+     padding: 6px;
+     text-decoration: none;
+}
+
+.searchHome{
+    display: flex;
+    flex-flow : column wrap;
+    justify-content: center;
+    align-items: center;
+    /*border-bottom:  1px dotted black;*/
+}
+
+.h1Text{
+    font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+    text-transform: capitalize;
+    color : #707070;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.anualReport{
+    background-color: #FCB24433;
+    padding: 10px 16px;
+    border-radius : 3px;
+}
+
+.rentOptions {
+    margin-top: 4   0px;
+    background-color: #fcfcfc;
+  /*  border : 1px solid blue;*/
+margin-top: 25px;
+}
+
+.rentOptions > a{
+    text-decoration : none;
+    border : 1px solid #ededed;
+    padding: 15px;
+    font-size: 16px;
+    color : #909496;
+
+}
+.searchOptions{
+    border : 1px solid red;
+}
+#topCities{
+    padding: 15px 30px 15px 20px;
+    background-color: white;
+    color : #707070;
+}
+
+.searchLocations{
+     padding: 15px 50px 15px 15px;
+}
+
+#submitSearch{
+    padding: 15px 30px 15px 20px;
+    margin : 0;
+    background-color: #eb354e;
+    border: 1px solid #eb354e;
+    color: #FFF;
+}
+
+#propertyOwnerPrompt{
+    margin-top : 70px;
+    color: #666;
+    font-size: 15px;
+   /*  border-bottom: 1px solid black; */
+}
+
+#postYourProperty{
+    padding: 5px 25px 5px 25px;
+    background-color: #009587;
+    color : #FFF;
+    border  : 1px solid ##009587;
+    border-radius: 3px;
+    margin-top : 15px;
+}
+
+#postYourProperty > a{
+    text-decoration : none;
+    color : #FFF;
+}
+
+#payRentCashBack{
+    margin-top: 20px;
+    background-color: #384d6c;
+    padding: 15px;
+    color : #FFF;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+#payRentNow {
+    border : 1px solid #FFF;
+    border-collapse: 3px;
+    background-color: #fff;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+#serviceMenus{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  /*  border : 1px solid red;*/
+}
+
+.boxService{
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+   /* border : 1px solid black;*/
+}
+
+.boxService > a{
+    padding: 13px;
+    display: block;
+     margin: auto;
+     text-align:center;
+     text-decoration:none;
+     color: #666  ;
+}
+
+
+.separator{
+    color : #666 ;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   /* border-bottom:  2px solid black;*/
+}
+
+.separator::before, .separator::after {
+    content : "";
+    flex : 1;
+    border-bottom : 1px solid black;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 3em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 3em;
+}
+
+.WhyUseNoBrokerFlex{
+    /*border : 1px solid black;*/
+    display : flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.WhyUseNoBrokerBox{
+    /*  border : 1px solid black;*/
+    text-align: center;
+    align-items: center;
+    padding: 20px 50px 20px 50px  ;
+}
+
+.WhyUseNoBrokerBox > a{
+    color: #666;
+    text-decoration: none;
+
+}
+
+.noBrokerBusinessAssist{
+    background-color:  #f4f4f4;
+}
+
+.noBrokerBusinessAssisth1{
+    padding-top: 50px;
+}
+
+
+.getInTouch{
+    padding : 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+   /* border : 1px solid black;*/
+}
+
+.getInTouchSide{
+   /* padding:  20px 30px ;*/
+   flex : 30% ;
+  /* border : 1px solid black;*/
+}
+
+.getInTouchMain{
+    flex : 70%;
+   /* border : 1px solid black;*/
+    /*display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;*/
+    padding-left: 30px;
+    padding-top : 30px;
+    color : #666;
+}
+
+.getInTouchMain > a{
+    text-decoration: none;
+    border : 1px solid #f73a50 ;
+    padding : 8px;
+    border-radius : 3px;
+    background-color: #f73a50;
+    color: white;
+}
+
+#getInTouchMainHr{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 0;
+}
+
+
+
+
+
+.WMADRow{
+    margin-top:  50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  /*  border : 1px solid black;*/
+}
+
+.WMADRowBox{
+/*border : 1px solid black;*/
+padding: 10px;
+text-align : center;
+align-items: center;
+color : #707070;
+}
+
+.WMADRowBoxCircle{
+border : 2px solid #FD3753;
+border-radius: 90px; 
+height: 180px;
+width : 180px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.WMADRowBoxCircle > h1{
+    margin-top : 60px ;
+    /*border : 1px solid black;*/
+    color :  #FD3753; 
+}
+
+.custLove{
+  background-color: #334a5c;
+  color : #FFF;
+  text-align : center;
+}
+
+.custLove > h1{
+    font-weight: 300;
+    padding-top: 5%;     
+}
+
+
+.payButton{
+    width : 90px;
+    height : 60px;
+    background-color : #333;
+    box-shadow: 0 0 30px rgba(0,0,0,.6);
+    z-index: 1;
+    opacity: .8;
+    border-radius : 6px;
+}
+
+.appDownLoadDiv{
+    display : flex;
+    flex-flow: row wrap;
+}
+.appDownLoadSide{
+    flex : 40%;
+    /*border : 1px solid red;*/
+    text-align : center;
+    padding: 30px;
+}
+
+.appDownLoadMain{
+    flex : 60%;
+    /*border : 1px solid black;*/
+    /*text-align : center;*/
+    padding-left: 50px;
+}
+
+.appDownLoadMain > h1 {
+    color : #FD3753;
+    margin-top: 60px;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.appDownLoadMain > h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.appDownLoadMain > p{
+    font-size: 20px;
+    font-weight: 200;
+    color : #222;
+} 
+
+#downloadAppGplay{
+    height: 80px;
+    width : 200px;
+}
+
+#downloadAppIphone{
+    height: 80px;
+    width : 200px;
+}
+
+
+.aboutUs{
+    display: flex;
+    flex-flow: row wrap;
+    background-color : #707070;
+    color: #FFF;
+    padding : 30px;
+}
+
+.aboutUsInfo{
+    flex : 50%;
+   /* border : 0.5px solid red ;*/
+    padding-left: 30px;
+}
+
+.aboutUsOtherLinks{
+ flex : 50%;
+ /* border : 0.5px solid brown ; */  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.boutUsOtherLinksbox >  a{
+    color : white;
+    text-decoration : none;
+}
+
+#facebook{
+    border : 1px solid blue;
+    padding : 8px;
+    background-color : blue;
+    color : white;
+    border-radius: 80px ;
+}
+
+#twitter{
+    border : 1px solid #1DA1F2;
+    padding : 8px;
+    background-color : #1DA1F2;
+    color : white;
+    border-radius: 80px ;
+}
+
+#instagram{
+     border : 1px solid pink;
+    padding : 8px;
+    background-color : pink;
+    color : white;
+    border-radius: 80px ;
+}
+
+
+#copyright{
+    background-color: #303B43;
+    color:  #FFF;
+    text-align : center;
+    padding : 10px;
+}
