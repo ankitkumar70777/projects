@@ -1,0 +1,22 @@
+.productDiv {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-width: 768px) {
+  .productDiv {
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .productDiv {
+    height: 100px;
+  }
+}

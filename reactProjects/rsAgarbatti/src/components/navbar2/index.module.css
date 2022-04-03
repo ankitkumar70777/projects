@@ -1,0 +1,29 @@
+.productListNav {
+  background-color: #fad0c3;
+  display: table;
+  width: 100%;
+}
+
+.productListNav .middle {
+  display: table-row;
+}
+
+.productListNav .middle a {
+  text-transform: uppercase;
+  display: table-cell;
+  text-align: center;
+  padding: 5px;
+}
+
+.productListNav .middle a:hover {
+  border:1px solid black;
+}
+
+@media all and (max-width: 768px) {
+  .productListNav .middle a {
+    display:block;
+    padding:2px;
+    font-size:12px;
+    border-bottom:1px solid white;
+  }
+}

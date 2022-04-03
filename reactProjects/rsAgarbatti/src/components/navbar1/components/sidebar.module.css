@@ -1,0 +1,27 @@
+.wapMenu svg{
+    display:inline-block;
+}
+
+.wapMenu a{
+    display:block;
+    color:#282a35;
+    font-size:13px;
+}
+
+
+.wapMenu .contactTime {
+    border: 1px solid red;
+    padding: 2px;
+    margin-left: 10px;
+  }
+
+
+
+  .wapMenu a{
+      padding-bottom:10px;
+
+  }
+
+  .wapMenu a  span{
+    margin-left: 8px;
+  }

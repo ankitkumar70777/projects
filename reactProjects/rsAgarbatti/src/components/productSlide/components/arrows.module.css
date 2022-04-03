@@ -1,0 +1,26 @@
+.leftArrow{
+  position:absolute;
+  z-index:99;
+  top:40%;
+  right:0;
+  cursor: pointer;
+}
+
+.rightArrow{
+  position:absolute;
+  z-index:99;
+  top:40%;
+  left:0;
+  cursor: pointer;
+}
+
+
+  .leftArrow svg, .rightArrow svg{
+    display:inline-block;
+  }
+
+
+
+
+  
+  
